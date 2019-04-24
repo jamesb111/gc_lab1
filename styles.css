@@ -1,0 +1,91 @@
+body {
+    font-family: "Open Sans";
+    background-color: #f9fafc;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.black-box {
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+}
+
+/* ******************* THE MAIN PART **************** */
+
+p {
+    width: 40%;
+    position: relative;
+    display: inline-block;
+    left: 2%;
+}
+
+.vl {
+    border-left: 6px solid #69696a;
+    height: 300px;
+    width: 10px;
+    position: absolute;
+    display: inline-block;
+    left: 1%;
+  }
+  /* ***********************CIRCLES**************************** */
+
+  .pink {
+      position: fixed;
+      background-color: rgba(247, 136, 167, 0.6);
+      width: 30%;
+      height: 30%;
+      border-radius: 50%;
+      top: 45%;
+      right: 20%;
+
+  }
+
+  .peach {
+      position: fixed;
+      background-color: rgba(247, 193, 162, 0.7);
+      width: 20%;
+      height: 20%;
+      border-radius: 50%;
+      top: 60%;
+      right: 10%;
+
+  }
+
+  .purple {
+      position: fixed;
+      background-color: rgba(207, 130, 213, 0.6);
+      width: 15%;
+      height: 15%;
+      border-radius: 50%;
+      top: 50%;
+      right: 10%;
+  }
+
+  div.bottom-part {
+      position: relative;
+  }
+
+  .bottom-part {
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    
+
+  }
