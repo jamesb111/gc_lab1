@@ -1,0 +1,130 @@
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans serif;
+}
+
+header, nav, .button{
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+.about {
+    border-left: 2px solid #69696a;
+    padding-left: 10px;
+}
+
+.button {
+    background-color: black;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.bold2 {
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .circle1 {
+        position: relative;
+        width: 180px;
+        height: 180px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        top: 35%;
+        right: 50%;
+    }
+
+    .circle2 {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        top: 20%;
+        right: 10%; 
+    }
+
+    .circle3 {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        top: -35%;
+        right: -15%; 
+    } 
+
+    header, nav {
+        flex-direction: row;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    nav a {
+        margin-left: 10px;
+        padding-top: 25px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    footer .button {
+        padding: 10px 10px;
+        position: absolute;
+        top: 90%;
+        right: 50%;
+    }
+
+    .about {
+        width: 60%;
+        padding-left: 15px;
+    }
+
+    .bold1 {
+        padding-top: 20px;
+        padding-left: 5px;
+    }
+
+    .bold2 {
+        padding-left: 5px;
+    }
+
+}
